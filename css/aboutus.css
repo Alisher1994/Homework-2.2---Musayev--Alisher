@@ -267,3 +267,36 @@ img::selection {
     font-weight: normal;
     font-family: "Barlow", "Arial", sans-serif;
 }
+
+
+/* End of about_container-3 */
+
+.footer {
+    display: flex;
+    height: 120px;
+    padding: 0 85px;
+    margin-top: 200px;
+    max-width: 1280px;
+    margin-bottom: 80px;
+    align-items: center;
+    background-color: var(--footer-bg);
+}
+
+.logotype-footer {
+    margin-right: 103px;
+}
+
+.social__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.social__items:nth-child(even) {
+    margin: 0 24px;
+}
+
+
+/* End of footer */
