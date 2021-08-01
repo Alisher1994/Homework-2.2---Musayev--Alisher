@@ -127,3 +127,45 @@ img::selection {
     font-weight: normal;
     font-family: "Barlow", "Arial", sans-serif;
 }
+
+
+/* End of hero */
+
+.aboutus_container-1 {
+    display: flex;
+    min-width: 1110px;
+    margin-top: 168px;
+    justify-content: space-around;
+}
+
+.right_subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_title {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 900;
+    color: #333d4b;
+    line-height: 48px;
+    font-style: normal;
+    font-family: "Fraunces", "Arial", serif;
+}
+
+.container_definition {
+    margin: 0;
+    padding: 0;
+    width: 540px;
+    opacity: 0.8;
+    font-size: 16px;
+    margin-top: 32px;
+    color: #333d4b;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    mix-blend-mode: normal;
+    font-family: "Barlow", "Arial", sans-serif;
+}
