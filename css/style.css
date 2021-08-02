@@ -32,20 +32,6 @@
     --text-colors-light: #fefcf7;
 }
 
-*,
-* a,
-* :after,
-* :before {
-    box-sizing: border-box;
-}
-
-body {
-    padding: 0;
-    width: 1280px;
-    margin: 0 auto;
-    background-color: var(--bg-color);
-}
-
 p::selection,
 a::selection,
 h2::selection,
@@ -56,9 +42,33 @@ img::selection {
     background: var(--main-color);
 }
 
+*,
+* a,
+* :after,
+* :before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
-    margin: 0 auto;
     margin-top: 44px;
     align-items: center;
     justify-content: space-between;
@@ -95,7 +105,6 @@ img::selection {
 /* End of header */
 
 .hero {
-    margin: 0 auto;
     margin-top: 48px;
     padding-top: 117px;
     padding-left: 85px;
@@ -301,6 +310,7 @@ img::selection {
 /* End of container-2 */
 
 .container-3 {
+    flex: 1 1 auto;
     padding-left: 85px;
 }
 
